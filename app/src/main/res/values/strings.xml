@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">云玩家</string>
+    <string name="title_activity_main">云玩家</string>
+    <string name="title_home">Home</string>
+    <string name="title_article">Article</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_person_details">PersonDetails</string>
+    <string name="load_register">登录/注册</string>
+
+    <string name="NickName">李大钊</string>
+    <string name="comment">哈哈哈，1楼是我的，而我，蠢萌蠢萌的</string>
+    <string name="like">20</string>
+    <string name="description">这是一个傻逼图片</string>
+
+    <string name="Subject_details">主题详情</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

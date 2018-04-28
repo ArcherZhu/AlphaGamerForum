@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7db73"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60sp"
+        android:layout_marginRight="60sp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/L1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50sp"
+            android:gravity="center">
+
+            <com.shiro.issolution.gamerforum.orwidget.ImageViewPlus
+                android:id="@+id/I1"
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:layout_gravity="center"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#e7db73"
+                app:srcCompat="@mipmap/xiangce" />
+
+            <ImageButton
+                android:id="@+id/camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#e7db73"
+                app:srcCompat="@mipmap/paizhao" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/L2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/T1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="昵    称："
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/niname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入昵称" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/moreregister"
+            android:layout_width="fill_parent"
+            android:layout_height="45sp"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/yun_btn1"
+            android:text="注    册"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
